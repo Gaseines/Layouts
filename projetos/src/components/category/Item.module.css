@@ -1,0 +1,17 @@
+.container_item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.titulo{
+    position: absolute;
+    top: 20px;
+
+    color: var(--Branco);
+    font-family: "PT Sans", sans-serif;
+}

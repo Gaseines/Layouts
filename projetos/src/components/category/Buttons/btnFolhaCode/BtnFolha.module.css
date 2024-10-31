@@ -1,0 +1,36 @@
+.btn{
+    position:relative;
+    padding: 0.7em 1.2em;
+    font-size: 1.2em;
+    text-decoration: none;
+    background: red;
+    color: white;
+    border: 1px solid #0000004d;
+    border-radius: 5px;
+    box-shadow: 0.5em 0.5em 0.5em #0000004d;
+    cursor:pointer;
+    transition: 0.2s;
+  }
+  button::before{
+    position:absolute;
+    content:'';
+    width:0;
+    height:0;
+    top:0;
+    left:0;
+    background: linear-gradient(135deg, #212121 0%,  #212121 50%, #96041f  50%, red 60%);
+    border-radius: 5px 0px 5px 0px;
+    box-shadow: 0.2em 0.2em 0.2em #0000004d;
+    transition:0.3s;
+    
+  }
+  button:hover::before{
+    
+    width:25px;
+    height:25px;
+    
+  }
+  button:active{
+    box-shadow:0.2em 0.2em 0.2em #0000004d;
+    transform:translate(5px, 5px)
+  }

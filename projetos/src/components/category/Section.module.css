@@ -1,0 +1,8 @@
+.section{
+    width: 100%;
+    max-width: 1280px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}

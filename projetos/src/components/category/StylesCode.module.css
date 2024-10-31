@@ -1,0 +1,64 @@
+.linha{
+    width: 500px;
+    display: flex;
+   flex-direction: column;
+    justify-content: start;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+    padding-top: 5px;
+    margin-left: 5px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.linha p{
+    text-align: start;
+    white-space: nowrap;
+}
+
+.number{
+    color: #464942;
+    margin-right: 5px;
+    user-select: none;
+}
+
+.a{
+    color: #A78540;
+}
+
+.aa{
+    color: #DDCA7E;
+}
+
+.v{
+    color: #96B37E;
+}
+
+.c{
+    margin-left: 40px;
+    color: #9A8297;
+}
+
+.l{
+    color: #D0782A;
+}
+
+.mensagem{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mensagem h1{
+    font-size: 1.5em;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+}
+
+.mensagem .logo_js{
+    color: yellow;
+}

@@ -1,0 +1,21 @@
+:root{
+  --Roxo: #6a0dad;
+  --Branco: #ffff;
+  --RoxoClaro: #7f34b4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #6a0dad;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
