@@ -1,11 +1,11 @@
 import Item from '../../Item'
 import styles from './BtnFolha.module.css'
 
-function BtnFolha(){
+function BtnFolha() {
     return (
-        <Item titulo={'Leaf Button'}>
+        <div>
             <button className={styles.btn}><b>Click!</b></button>
-        </Item>
+        </div>
     )
 }
 

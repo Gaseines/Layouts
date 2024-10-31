@@ -1,0 +1,39 @@
+.voltar{
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    
+
+    padding: 5px 10px 5px 5px;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-family: "Pt Sans", sans-serif;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    font-weight: bolf;
+    border-radius: 10px;
+
+    transition: .5s ease;
+}
+.voltar:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+
+    animation: voltar 1s ease-in-out forwards;
+}
+
+@keyframes voltar {
+    0%{
+        transform: translateX(0);
+    }
+    40%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

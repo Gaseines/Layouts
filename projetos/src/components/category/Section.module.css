@@ -3,6 +3,7 @@
     max-width: 1280px;
     height: 500px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 50px;
 }
