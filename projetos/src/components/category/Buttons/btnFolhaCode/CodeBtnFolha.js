@@ -11,10 +11,10 @@ function CodeBtnFolha({ estado }) {
                 <div className={styles.linha}>
                     <p>
                         <span className={styles.number}>1 <BiCaretRight /></span>
-                        <span className={styles.a}>{`<button `}<span className={styles.aa}>class</span>
+                        <span className={styles.a}>{`<.btn `}<span className={styles.aa}>class</span>
                         </span> = 
                         <span className={styles.v}>"btn"</span> <span className={styles.a}>{`<b> `}</span> Click! 
-                        <span className={styles.a}>{`</b> </button>`}</span> </p>
+                        <span className={styles.a}>{`</b> </.btn>`}</span> </p>
                 </div>
 
             )}{estado === 'cssFolha' && (
@@ -117,7 +117,7 @@ function CodeBtnFolha({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>21 <BiCaretDown /></span>
-                        <span className={styles.a}>button::before</span>{`{`}
+                        <span className={styles.a}>.btn::before</span>{`{`}
                     </p>
                     <p>
                         <span className={styles.number}>22</span>
@@ -175,7 +175,7 @@ function CodeBtnFolha({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>33 <BiCaretDown /></span>
-                        <span className={styles.a}>button:hover::before</span>{`{`}
+                        <span className={styles.a}>.btn:hover::before</span>{`{`}
                     </p>
                     <p>
                         <span className={styles.number}>34</span>
@@ -193,7 +193,7 @@ function CodeBtnFolha({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>37 <BiCaretDown /></span>
-                        <span className={styles.a}>button:active</span>{`{`}
+                        <span className={styles.a}>.btn:active</span>{`{`}
                     </p>
                     <p>
                         <span className={styles.number}>38</span>
