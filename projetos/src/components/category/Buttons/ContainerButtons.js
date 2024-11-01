@@ -11,6 +11,8 @@ import BoxItem from '../BoxItem';
 import { useState } from 'react';
 import BtnVoltar from '../layoutsCategory/BtnVoltar';
 import BtnMenu1 from './btnMenu1/BtnMenu1';
+import BtnDownloadNow from './btnDownloadNow/BtnDownloadNow';
+import CodeBtnDownloadNow from './btnDownloadNow/CodeBtnDownloadNow';
 
 function ContainerButtons() {
 
@@ -32,7 +34,10 @@ function ContainerButtons() {
                             <BtnMenu1 />
                         </BoxItem>
 
-
+                        {/* Botao Menu 1 */}
+                        <BoxItem idRef={'btnDownloadNow'} setActiveCode={setTela}>
+                            <BtnDownloadNow />
+                        </BoxItem>
 
                     </Section>
                 </>
@@ -61,6 +66,20 @@ function ContainerButtons() {
                         </Item>
                         <Code linkHtml={'htmlMenu1'} linkCss={'cssMenu1'} linkJs={'jsMenu1'}>
                             <CodeBtnMenu1 />
+                        </Code>
+                    </Section>
+                </>
+            )}
+
+            {tela === 'btnDownloadNow' && (
+                <>
+                    <BtnVoltar setTela={setTela} />
+                    <Section>
+                        <Item>
+                            <BtnDownloadNow />
+                        </Item>
+                        <Code linkHtml={'htmlDownloadNow'} linkCss={'cssDownloadNow'} linkJs={'jsDownloadNow'}>
+                            <CodeBtnDownloadNow />
                         </Code>
                     </Section>
                 </>

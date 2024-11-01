@@ -11,10 +11,10 @@ function CodeBtnFolha({ estado }) {
                 <div className={styles.linha}>
                     <p>
                         <span className={styles.number}>1 <BiCaretRight /></span>
-                        <span className={styles.a}>{`<.btn `}<span className={styles.aa}>class</span>
+                        <span className={styles.a}>{`<button `}<span className={styles.aa}>class</span>
                         </span> = 
                         <span className={styles.v}>"btn"</span> <span className={styles.a}>{`<b> `}</span> Click! 
-                        <span className={styles.a}>{`</b> </.btn>`}</span> </p>
+                        <span className={styles.a}>{`</b> </button>`}</span> </p>
                 </div>
 
             )}{estado === 'cssFolha' && (

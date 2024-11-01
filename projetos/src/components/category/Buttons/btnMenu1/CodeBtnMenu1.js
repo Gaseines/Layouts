@@ -15,35 +15,35 @@ function CodeBtnFolha({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>2</span>
-                        <span className={styles.a}>{`<span `}<span className={styles.aa}>class</span></span> = <span className={styles.v}>"icon"</span> <span className={styles.a}>{`>`}</span>
+                        <span style={{marginLeft: "45px"}} className={styles.a}>{`<span `}<span className={styles.aa}>class</span></span> = <span className={styles.v}>"icon"</span> <span className={styles.a}>{`>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>3</span>
-                        <span className={styles.a}>{`<svg `}<span className={styles.aa}>viewBox</span></span> = <span className={styles.v}>"0 0 175 80"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"40"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"40"</span> <span className={styles.a}>{`>`}</span>
+                        <span style={{marginLeft: "65px"}} className={styles.a}>{`<svg `}<span className={styles.aa}>viewBox</span></span> = <span className={styles.v}>"0 0 175 80"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"40"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"40"</span> <span className={styles.a}>{`>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>4</span>
-                        <span className={styles.a}>{`<rect `}<span className={styles.aa}>width</span></span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
+                        <span style={{marginLeft: "85px"}} className={styles.a}>{`<rect `}<span className={styles.aa}>width</span></span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>5</span>
-                        <span className={styles.a}>{`<rect `}<span className={styles.aa}>y</span></span> = <span className={styles.v}>"30"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
+                        <span style={{marginLeft: "85px"}} className={styles.a}>{`<rect `}<span className={styles.aa}>y</span></span> = <span className={styles.v}>"30"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>6</span>
-                        <span className={styles.a}>{`<rect `}<span className={styles.aa}>y</span></span> = <span className={styles.v}>"60"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
+                        <span style={{marginLeft: "85px"}} className={styles.a}>{`<rect `}<span className={styles.aa}>y</span></span> = <span className={styles.v}>"60"</span> <span className={styles.aa}>width</span> = <span className={styles.v}>"80"</span> <span className={styles.aa}>height</span> = <span className={styles.v}>"15"</span> <span className={styles.aa}>fill</span> = <span className={styles.v}>"#f0f0f0"</span> <span className={styles.aa}>rx</span> = <span className={styles.v}>"10"</span> <span className={styles.a}>{`></rect>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>7</span>
-                        <span className={styles.a}>{`</svg>`}</span>
+                        <span style={{marginLeft: "65px"}} className={styles.a}>{`</svg>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>8</span>
-                        <span className={styles.a}>{`</span>`}</span>
+                        <span style={{marginLeft: "45px"}} className={styles.a}>{`</span>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>9</span>
-                        <span className={styles.a}>{`<span `}<span className={styles.aa}>class</span></span> = <span className={styles.v}>"text"</span> <span className={styles.a}>{`>`}</span>MENU<span className={styles.a}>{`</span>`}</span>
+                        <span style={{marginLeft: "45px"}} className={styles.a}>{`<span `}<span className={styles.aa}>class</span></span> = <span className={styles.v}>"text"</span> <span className={styles.a}>{`>`}</span>MENU<span className={styles.a}>{`</span>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>10</span>
@@ -184,7 +184,7 @@ function CodeBtnFolha({ estado }) {
                     <p>
                         <span className={styles.number}>35</span>
                         <span className={styles.c}>transform</span>:
-                        <span className={styles.l}> translateX(55px)</span>;
+                        <span className={styles.l}> translateX(45px)</span>;
                     </p>
                     <p>
                         <span className={styles.number}>36</span>
@@ -197,7 +197,7 @@ function CodeBtnFolha({ estado }) {
                     <p>
                         <span className={styles.number}>38</span>
                         <span className={styles.c}>width</span>:
-                        <span className={styles.l}> 175px</span>;
+                        <span className={styles.l}> 165px</span>;
                     </p>
                     <p>
                         <span className={styles.number}>39</span>
