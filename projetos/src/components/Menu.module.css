@@ -43,14 +43,43 @@
     background-color: var(--RoxoClaro);
 }
 
+.container_itens{
+    display: block;
+    opacity: 1;
+    height: 100%;
+}
+
 .animated_button {
     display: none;
 }
 
 
 @media (max-width: 900px) {
-    .menu ul {
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .container_itens {
         display: none;
+        height: 0px;
+        opacity: 0;
+        border: 1px solid white;
+        border-radius: 20px;
+        margin-top: -7px;
+        margin-bottom: 10px;
+        transition: opacity 1s ease, height 1s ease;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 20px 10px;
+    }
+
+    .menu li{
+        margin-left: 0;
     }
 
     .animated_button {
@@ -83,10 +112,12 @@
       
       .animated_button .arr_1 {
         right: 16px;
+        transform: rotate(90deg);
       }
       
       .animated_button .arr_2 {
         left: -25%;
+        transform: rotate(90deg);
       }
       
       .animated_button .circle {

@@ -1,5 +1,6 @@
 .container_item{
     width: 50%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,4 +15,11 @@
 
     color: var(--Branco);
     font-family: "PT Sans", sans-serif;
+}
+
+@media (max-width: 900px){
+    .container_item{
+        height: 500px;
+        width: 100%;
+    }
 }

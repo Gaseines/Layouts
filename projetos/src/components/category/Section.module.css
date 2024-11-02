@@ -7,3 +7,12 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+@media (max-width: 900px){
+    .section{
+        height: 100%;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
