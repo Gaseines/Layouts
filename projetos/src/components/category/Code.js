@@ -14,7 +14,7 @@ function Code({ linkHtml, linkCss, linkJs, children }) {
     const [clickCss, setClickCss] = useState(false)
     const [clickJs, setClickJs] = useState(false)
 
-    const [estado, setEstado] = useState('htmlFolha')
+    const [estado, setEstado] = useState('html')
 
     const handleClick = (event) => {
         if (event === 'html') {

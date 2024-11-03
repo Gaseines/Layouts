@@ -5,7 +5,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 function CodeBtnDownloadNow({ estado }) {
     return (
         <>
-            {estado === 'htmlDownloadNow' && (
+            {(estado === 'htmlDownloadNow' || estado === 'html') && (
                 <div className={styles.linha}>
                     <p>
                         <span className={styles.number}>1 <BiCaretRight /></span>

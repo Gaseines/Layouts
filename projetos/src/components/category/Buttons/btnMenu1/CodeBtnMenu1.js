@@ -7,7 +7,7 @@ function CodeBtnFolha({ estado }) {
 
     return (
         <>
-            {estado === 'htmlMenu1' && (
+            {(estado === 'htmlMenu1' || estado === 'html') && (
                 <div className={styles.linha}>
                     <p>
                         <span className={styles.number}>1 <BiCaretRight /></span>

@@ -7,7 +7,7 @@ function Menu() {
 
     const btnMenuRef = useRef(null)
     const menuRef = useRef(null)
-    const [menuActivated, setMenuActivated] = useState(false)
+    const [menuActivated, setMenuActivated] = useState(true)
 
     const FMenu = () =>{
        setMenuActivated((prev) => !prev)
@@ -15,7 +15,7 @@ function Menu() {
 
     useEffect(() =>{
         if(menuRef.current){
-            if(menuActivated){
+            if(menuActivated && window.innerWidth < 900){
                 menuRef.current.style.display = 'none'
                 menuRef.current.style.opacity = 0
                 menuRef.current.style.height = '0px'
@@ -50,7 +50,7 @@ function Menu() {
                 <div ref={menuRef} className={styles.container_itens}>
                     <ul >
                         <Link className={styles.item_menu} to={'/%btn%'}><li>Buttons</li></Link>
-                        <Link className={styles.item_menu} to={'/'}><li>CheckBoxes</li></Link>
+                        <Link className={styles.item_menu} to={'/%ch3ck_b0x%'}><li>CheckBoxes</li></Link>
                         <Link className={styles.item_menu} to={'/'}><li>Toggle switches</li></Link>
                         <Link className={styles.item_menu} to={'/'}><li>Cards</li></Link>
                         <Link className={styles.item_menu} to={'/'}><li>Loaders</li></Link>
