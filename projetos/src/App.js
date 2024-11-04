@@ -4,10 +4,15 @@ import './App.css';
 import Home from './components/Home';
 import Menu from './components/Menu';
 import HomeDois from './components/HomeDois';
-import ContainerButtons from './components/category/Buttons/ContainerButtons';
-import CodeBtnFolha from './components/category/Buttons/btnFolhaCode/CodeBtnFolha';
 import Footer from './components/Footer';
+
+import ContainerButtons from './components/category/Buttons/ContainerButtons';
+
 import ContainerCheckBox from './components/category/CheckBox/ContainerCheckBox';
+
+import ContainerToggleSwitches from './components/category/ToggleSwitches/ContainerToggleSwitches';
+
+import ContainerCards from './components/category/Cards/ContainerCards';
 
 function App() {
   return (
@@ -23,6 +28,8 @@ function App() {
           <Route path='/Layouts' element={<HomeDois />} />
           <Route path='/%btn%' element={<ContainerButtons />}/>
           <Route path='/%ch3ck_b0x%' element={<ContainerCheckBox />}/>
+          <Route path='/%toggl3_sw1tch35%' element={<ContainerToggleSwitches />}/>
+          <Route path='/%c4rds%' element={<ContainerCards />}/>
           
         </Routes>
       </BrowserRouter>

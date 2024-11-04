@@ -13,6 +13,10 @@ import BtnVoltar from '../layoutsCategory/BtnVoltar';
 import BtnMenu1 from './btnMenu1/BtnMenu1';
 import BtnDownloadNow from './btnDownloadNow/BtnDownloadNow';
 import CodeBtnDownloadNow from './btnDownloadNow/CodeBtnDownloadNow';
+import BtnSubmitBlue from './btnSubmitBlue/BtnSubmitBlue';
+import CodeBtnSubmitBlue from './btnSubmitBlue/CodeBtnSubmitBlue';
+import BtnBuyNow from './btnBuyNow/BtnBuyNow';
+import CodeBtnBuyNow from './btnBuyNow/CodeBtnBuyNow';
 
 function ContainerButtons() {
 
@@ -34,9 +38,19 @@ function ContainerButtons() {
                             <BtnMenu1 />
                         </BoxItem>
 
-                        {/* Botao Menu 1 */}
+                        {/* Botao Download Now */}
                         <BoxItem idRef={'btnDownloadNow'} setActiveCode={setTela}>
                             <BtnDownloadNow />
+                        </BoxItem>
+
+                        {/* Botao Submit Blue*/}
+                        <BoxItem idRef={'btnSubmitBlue'} setActiveCode={setTela}>
+                            <BtnSubmitBlue />
+                        </BoxItem>
+
+                        {/* Botao Buy Now*/}
+                        <BoxItem idRef={'btnBuyNow'} setActiveCode={setTela}>
+                            <BtnBuyNow />
                         </BoxItem>
 
                     </Section>
@@ -80,6 +94,34 @@ function ContainerButtons() {
                         </Item>
                         <Code linkHtml={'htmlDownloadNow'} linkCss={'cssDownloadNow'} linkJs={'jsDownloadNow'}>
                             <CodeBtnDownloadNow />
+                        </Code>
+                    </Section>
+                </>
+            )}
+
+            {tela === 'btnSubmitBlue' && (
+                <>
+                    <BtnVoltar setTela={setTela} />
+                    <Section>
+                        <Item>
+                            <BtnSubmitBlue />
+                        </Item>
+                        <Code linkHtml={'htmlSubmitBlue'} linkCss={'cssSubmitBlue'} linkJs={'jsSubmitBlue'}>
+                            <CodeBtnSubmitBlue />
+                        </Code>
+                    </Section>
+                </>
+            )}
+
+            {tela === 'btnBuyNow' && (
+                <>
+                    <BtnVoltar setTela={setTela} />
+                    <Section>
+                        <Item>
+                            <BtnBuyNow />
+                        </Item>
+                        <Code linkHtml={'htmlBuyNow'} linkCss={'cssBuyNow'} linkJs={'jsBuyNow'}>
+                            <CodeBtnBuyNow />
                         </Code>
                     </Section>
                 </>
