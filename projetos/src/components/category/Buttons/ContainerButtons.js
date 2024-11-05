@@ -17,6 +17,7 @@ import BtnSubmitBlue from './btnSubmitBlue/BtnSubmitBlue';
 import CodeBtnSubmitBlue from './btnSubmitBlue/CodeBtnSubmitBlue';
 import BtnBuyNow from './btnBuyNow/BtnBuyNow';
 import CodeBtnBuyNow from './btnBuyNow/CodeBtnBuyNow';
+import CodeTeste from './btnFolhaCode/CodeTeste';
 
 function ContainerButtons() {
 

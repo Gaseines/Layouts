@@ -90,7 +90,7 @@ function CodeCardPizza({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>21</span>
-                        <span style={{ marginLeft: "105px" }} className={styles.a}>{`<small `}<span className={styles.aa}>class</span> = <span className={styles.v}>"badge"</span> <span className={styles.a}>{`>`}</span>Pasta<span className={styles.a}>{`</small>`}</span></span>
+                        <span style={{ marginLeft: "105px" }} className={styles.a}>{`<small `}<span className={styles.aa}>class</span> = <span className={styles.v}>"badge"</span> <span className={styles.a}>{`>`}</span></span>Pizza<span className={styles.a}>{`</small>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>22</span>
@@ -142,7 +142,7 @@ function CodeCardPizza({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>34</span>
-                        <span style={{ marginLeft: "125px" }} className={styles.a}>{`<p `}<span className={styles.aa}>class</span> = <span className={styles.v}>"card-footer"</span> <span className={styles.a}>{`>`}</span>30 Mins &nbsp; | &nbsp; 10 Servidos<span className={styles.a}>{`</p>`}</span></span>
+                        <span style={{ marginLeft: "125px" }} className={styles.a}>{`<p `}<span className={styles.aa}>class</span> = <span className={styles.v}>"card-footer"</span> <span className={styles.a}>{`>`}</span></span>30 Mins &nbsp; | &nbsp; 10 Servidos<span className={styles.a}>{`</p>`}</span>
                     </p>
                     <p>
                         <span className={styles.number}>35</span>
@@ -379,7 +379,7 @@ function CodeCardPizza({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>50</span>
-                        <span className={styles.a}>100%</span> <span>{`{`}</span>
+                        <span className={styles.a}>0%</span> <span>{`{`}</span>
                         <span className={styles.c}>transform</span>: <span className={styles.aa}>rotateZ(360deg)</span>;
                         <span>{`}`}</span>
                     </p>
@@ -415,7 +415,7 @@ function CodeCardPizza({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>58</span>
-                        <span className={styles.c}>width</span>: <span className={styles.l}>100%</span>;
+                        <span className={styles.c}>width</span>: <span className={styles.l}>160px</span>;
                     </p>
                     <p>
                         <span className={styles.number}>59</span>
@@ -423,7 +423,7 @@ function CodeCardPizza({ estado }) {
                     </p>
                     <p>
                         <span className={styles.number}>60</span>
-                        <span className={styles.c}>padding</span>: <span className={styles.l}>10px</span>;
+                        <span className={styles.c}>padding</span>: <span className={styles.l}>5px</span>;
                     </p>
                     <p>
                         <span className={styles.number}>61</span>
@@ -721,6 +721,39 @@ function CodeCardPizza({ estado }) {
                         <span className={styles.number}>130</span>
                         {`}`}
                     </p>
+                    <p>
+                        <span className={styles.number}>131</span>
+                        <span className={styles.a}>{`.back `}</span>{`{`}
+                    </p>
+                    <p>
+                        <span className={styles.number}>132</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>width</span>: <span className={styles.l}>100%</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>133</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>height</span>: <span className={styles.l}>100%</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>134</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>justify-content</span>: <span className={styles.aa}>center</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>135</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>display</span>: <span className={styles.aa}>flex</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>136</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>align-items</span>: <span className={styles.aa}>center</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>137</span>
+                        <span style={{ marginLeft: "45px" }} className={styles.c}>overflow</span>: <span className={styles.aa}>hidden</span>;
+                    </p>
+                    <p>
+                        <span className={styles.number}>138</span>
+                        {`}`}
+                    </p>
+
                 </div>
 
 
