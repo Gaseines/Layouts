@@ -14,6 +14,8 @@ import ContainerToggleSwitches from './components/category/ToggleSwitches/Contai
 
 import ContainerCards from './components/category/Cards/ContainerCards';
 
+import ContainerLoaders from './components/category/Loaders/ContainerLoaders';
+
 function App() {
   return (
     <div className='App'>
@@ -30,6 +32,7 @@ function App() {
           <Route path='/%ch3ck_b0x%' element={<ContainerCheckBox />}/>
           <Route path='/%toggl3_sw1tch35%' element={<ContainerToggleSwitches />}/>
           <Route path='/%c4rds%' element={<ContainerCards />}/>
+          <Route path='/%l04d3r5%' element={<ContainerLoaders />}/>
           
         </Routes>
       </BrowserRouter>

@@ -53,7 +53,7 @@ function Menu() {
                         <Link className={styles.item_menu} to={'/%ch3ck_b0x%'}><li>CheckBoxes</li></Link>
                         <Link className={styles.item_menu} to={'/%toggl3_sw1tch35%'}><li>Toggle switches</li></Link>
                         <Link className={styles.item_menu} to={'/%c4rds%'}><li>Cards</li></Link>
-                        <Link className={styles.item_menu} to={'/'}><li>Loaders</li></Link>
+                        <Link className={styles.item_menu} to={'/%l04d3r5%'}><li>Loaders</li></Link>
                     </ul>
                 </div>
             </nav>

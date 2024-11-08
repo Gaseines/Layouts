@@ -7,8 +7,10 @@ import { useState } from 'react';
 import BtnVoltar from '../layoutsCategory/BtnVoltar';
 import SilverSwitche from './silverSwitche/SilverSwitche';
 import CodeSwitcheSilver from './silverSwitche/CodeSwitcheSilver';
+import SwitcheRotate from './SwitcheRotate/SwitcheRotate';
+import CodeSwitcheRotate from './SwitcheRotate/CodeSwitcheRotate';
 
-function ContainerToggleSwitches(){
+function ContainerToggleSwitches() {
     const [tela, setTela] = useState('Principal')
     console.log(tela)
 
@@ -17,9 +19,14 @@ function ContainerToggleSwitches(){
             {tela === 'Principal' && (
                 <>
                     <Section>
-                        {/* CheckBox Flip */}
+                        {/* Switche Modern Silver */}
                         <BoxItem idRef={'switcheSilver'} setActiveCode={setTela}>
                             <SilverSwitche />
+                        </BoxItem>
+
+                        {/* Switche Simple Rotate */}
+                        <BoxItem idRef={'switcheRotate'} setActiveCode={setTela}>
+                            <SwitcheRotate />
                         </BoxItem>
 
                     </Section>
@@ -40,7 +47,21 @@ function ContainerToggleSwitches(){
                 </>
             )}
 
-            
+            {tela === 'switcheRotate' && (
+                <>
+                    <BtnVoltar setTela={setTela} />
+                    <Section>
+                        <Item>
+                            <SwitcheRotate />
+                        </Item>
+                        <Code linkHtml={'htmlSwitcheRotate'} linkCss={'cssSwitcheRotate'} linkJs={'jsSwitcheRotate'}>
+                            <CodeSwitcheRotate />
+                        </Code>
+                    </Section>
+                </>
+            )}
+
+
         </Container>
     );
 }
