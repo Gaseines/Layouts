@@ -20,6 +20,10 @@ import CodeBtnBuyNow from "./btnBuyNow/CodeBtnBuyNow";
 import CodeTeste from "./btnFolhaCode/CodeTeste";
 import BtnLeftToRight from "./btnLeftToRight/BtnLeftToRight";
 import CodeBtnLeftToRight from "./btnLeftToRight/CodeBtnLeftToRight";
+import Btn3DYellow from "./btn3DYellow/Btn3DYellow";
+import CodeBtn3DYellow from "./btn3DYellow/CodeBtn3DYellow";
+import BtnSocial01 from "./btnSocial01/BtnSocial01";
+import CodeBtnSocial01 from "./btnSocial01/CodeBtnSocial01";
 
 function ContainerButtons() {
   const [tela, setTela] = useState("Principal");
@@ -58,6 +62,16 @@ function ContainerButtons() {
             {/* Botao Left to Right*/}
             <BoxItem idRef={"btnLeftToRight"} setActiveCode={setTela}>
               <BtnLeftToRight />
+            </BoxItem>
+
+            {/* Botao 3D Yellow*/}
+            <BoxItem idRef={"btn3DYellow"} setActiveCode={setTela}>
+              <Btn3DYellow />
+            </BoxItem>
+
+            {/* Botao Social 01*/}
+            <BoxItem idRef={"btnSocial01"} setActiveCode={setTela}>
+              <BtnSocial01 />
             </BoxItem>
           </Section>
         </>
@@ -166,6 +180,42 @@ function ContainerButtons() {
               linkJs={"jsLeftToRight"}
             >
               <CodeBtnLeftToRight />
+            </Code>
+          </Section>
+        </>
+      )}
+
+      {tela === "btn3DYellow" && (
+        <>
+          <BtnVoltar setTela={setTela} />
+          <Section>
+            <Item>
+              <Btn3DYellow />
+            </Item>
+            <Code
+              linkHtml={"html3DYellow"}
+              linkCss={"css3DYellow"}
+              linkJs={"js3DYellow"}
+            >
+              <CodeBtn3DYellow />
+            </Code>
+          </Section>
+        </>
+      )}
+
+      {tela === "btnSocial01" && (
+        <>
+          <BtnVoltar setTela={setTela} />
+          <Section>
+            <Item>
+              <BtnSocial01 />
+            </Item>
+            <Code
+              linkHtml={"htmlSocial01"}
+              linkCss={"cssSocial01"}
+              linkJs={"jsSocial01"}
+            >
+              <CodeBtnSocial01 />
             </Code>
           </Section>
         </>
