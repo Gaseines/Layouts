@@ -1,8 +1,8 @@
 import styles from "../../StylesCode.module.css";
-import { BiCaretRight, BiCaretDown } from "react-icons/bi";
+import { BiCaretRight } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 
-function CodeBtnSocial01({ estado }) {
+function CodeBtnSocialUm({ estado }) {
   return (
     <>
       {(estado === "htmlSocial01" || estado === "html") && (
@@ -861,4 +861,4 @@ function CodeBtnSocial01({ estado }) {
   );
 }
 
-export default CodeBtnSocial01;
+export default CodeBtnSocialUm;

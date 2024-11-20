@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from 'react'
 
 function Menu() {
 
-    const btnMenuRef = useRef(null)
     const menuRef = useRef(null)
     const [menuActivated, setMenuActivated] = useState(true)
 

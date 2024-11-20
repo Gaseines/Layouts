@@ -1,6 +1,7 @@
-import styles from "./BtnSocial01.module.css";
+import React from 'react'
+import styles from './BtnSocialUm.module.css'
 
-const BtnSocial01 = () => {
+const BtnSocialUm = () => {
   return (
     <div>
       <button className={styles.btn_cssbuttons}>
@@ -22,7 +23,7 @@ const BtnSocial01 = () => {
         </span>
         <ul>
           <li>
-            <a href="https://twitter.com/SumethWrrn">
+            <a href="https://gaseines.github.io/Portifolio/">
               <svg
                 height="18"
                 width="18"
@@ -39,7 +40,7 @@ const BtnSocial01 = () => {
             </a>
           </li>
           <li>
-            <a href="https://codepen.io/sharpth">
+            <a href="https://gaseines.github.io/Portifolio/">
               <svg
                 height="18"
                 width="18"
@@ -56,7 +57,7 @@ const BtnSocial01 = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/SharpTH">
+            <a href="https://gaseines.github.io/Portifolio/">
               <svg
                 height="18"
                 width="18"
@@ -75,7 +76,7 @@ const BtnSocial01 = () => {
         </ul>
       </button>
     </div>
-  );
-};
+  )
+}
 
-export default BtnSocial01;
+export default BtnSocialUm

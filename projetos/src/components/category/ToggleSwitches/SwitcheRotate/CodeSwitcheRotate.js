@@ -1,5 +1,4 @@
 import styles from '../../StylesCode.module.css'
-import { BiCaretRight, BiCaretDown } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 
 function CodeSwitcheRotate({ estado }) {

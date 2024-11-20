@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 function Footer(){
     return(
-        <footer className={styles.footer}>&copy; <a href="https://gaseines.github.io/Portifolio" target='_blank'>Developer Gabriel Nunes</a>. Todos os direitos rezervados.</footer>
+        <footer className={styles.footer}>&copy; <a href="https://gaseines.github.io/Portifolio" rel='noreferrer'>Developer Gabriel Nunes</a>. Todos os direitos rezervados.</footer>
     )
 }
 

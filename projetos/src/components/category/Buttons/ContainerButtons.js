@@ -1,4 +1,4 @@
-import styles from "./ContainerButtons.module.css";
+
 
 import Container from "../Container";
 import Section from "../Section";
@@ -17,13 +17,12 @@ import BtnSubmitBlue from "./btnSubmitBlue/BtnSubmitBlue";
 import CodeBtnSubmitBlue from "./btnSubmitBlue/CodeBtnSubmitBlue";
 import BtnBuyNow from "./btnBuyNow/BtnBuyNow";
 import CodeBtnBuyNow from "./btnBuyNow/CodeBtnBuyNow";
-import CodeTeste from "./btnFolhaCode/CodeTeste";
 import BtnLeftToRight from "./btnLeftToRight/BtnLeftToRight";
 import CodeBtnLeftToRight from "./btnLeftToRight/CodeBtnLeftToRight";
 import Btn3DYellow from "./btn3DYellow/Btn3DYellow";
 import CodeBtn3DYellow from "./btn3DYellow/CodeBtn3DYellow";
-import BtnSocial01 from "./btnSocial01/BtnSocial01";
-import CodeBtnSocial01 from "./btnSocial01/CodeBtnSocial01";
+import BtnSocialUm from "./btnSocial01/BtnSocialUm";
+import CodeBtnSocialUm from "./btnSocial01/CodeBtnSocialUm";
 
 function ContainerButtons() {
   const [tela, setTela] = useState("Principal");
@@ -71,7 +70,7 @@ function ContainerButtons() {
 
             {/* Botao Social 01*/}
             <BoxItem idRef={"btnSocial01"} setActiveCode={setTela}>
-              <BtnSocial01 />
+              <BtnSocialUm />
             </BoxItem>
           </Section>
         </>
@@ -208,14 +207,14 @@ function ContainerButtons() {
           <BtnVoltar setTela={setTela} />
           <Section>
             <Item>
-              <BtnSocial01 />
+              <BtnSocialUm />
             </Item>
             <Code
               linkHtml={"htmlSocial01"}
               linkCss={"cssSocial01"}
               linkJs={"jsSocial01"}
             >
-              <CodeBtnSocial01 />
+              <CodeBtnSocialUm />
             </Code>
           </Section>
         </>
