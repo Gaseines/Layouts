@@ -1,5 +1,4 @@
-.btn_cssbuttons {
-    --btn-color: #4d4557;
+.btnCssbuttons {
     position: relative;
     padding: 16px 32px;
     font-family: Roboto, sans-serif;
@@ -16,7 +15,7 @@
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
    }
    
-   .btn_cssbuttons::before {
+   .btnCssbuttons::before {
     position: absolute;
     content: "";
     top: 0;
@@ -24,32 +23,32 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: var(--btn-color);
+    background: #4d4557;
     border-radius: 24px;
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
    }
    
-   .btn_cssbuttons span,
-   .btn_cssbuttons span span {
+   .btnCssbuttons span,
+   .btnCssbuttons span span {
     display: inline-flex;
     vertical-align: middle;
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
    }
    
-   .btn_cssbuttons span {
+   .btnCssbuttons span {
     transition-delay: 0.05s;
    }
    
-   .btn_cssbuttons span:first-child {
+   .btnCssbuttons span:first-child {
     padding-right: 7px;
    }
    
-   .btn_cssbuttons span span {
+   .btnCssbuttons span span {
     margin-left: 8px;
     transition-delay: 0.1s;
    }
    
-   .btn_cssbuttons ul {
+   .btnCssbuttons ul {
     position: absolute;
     top: 50%;
     left: 0;
@@ -61,42 +60,42 @@
     transform: translateY(-50%);
    }
    
-   .btn_cssbuttons ul li {
+   .btnCssbuttons ul li {
     flex: 1;
    }
    
-   .btn_cssbuttons ul li a {
+   .btnCssbuttons ul li a {
     display: inline-flex;
     vertical-align: middle;
     transform: translateY(55px);
     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
    }
    
-   .btn_cssbuttons ul li a:hover {
+   .btnCssbuttons ul li a:hover {
     opacity: 0.6;
    }
    
-   .btn_cssbuttons:hover::before {
+   .btnCssbuttons:hover::before {
     transform: scale(1.2);
    }
    
-   .btn_cssbuttons:hover span,
-   .btn_cssbuttons:hover span span {
+   .btnCssbuttons:hover span,
+   .btnCssbuttons:hover span span {
     transform: translateY(-55px);
    }
    
-   .btn_cssbuttons:hover ul li a {
+   .btnCssbuttons:hover ul li a {
     transform: translateY(0);
    }
    
-   .btn_cssbuttons:hover ul li:nth-child(1) a {
+   .btnCssbuttons:hover ul li:nth-child(1) a {
     transition-delay: 0.15s;
    }
    
-   .btn_cssbuttons:hover ul li:nth-child(2) a {
+   .btnCssbuttons:hover ul li:nth-child(2) a {
     transition-delay: 0.2s;
    }
    
-   .btn_cssbuttons:hover ul li:nth-child(3) a {
+   .btnCssbuttons:hover ul li:nth-child(3) a {
     transition-delay: 0.25s;
    }

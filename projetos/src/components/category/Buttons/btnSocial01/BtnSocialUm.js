@@ -4,7 +4,7 @@ import styles from './BtnSocialUm.module.css'
 const BtnSocialUm = () => {
   return (
     <div>
-      <button className={styles.btn_cssbuttons}>
+      <button className={styles.btnCssbuttons}>
         <span>Social</span>
         <span>
           <svg
