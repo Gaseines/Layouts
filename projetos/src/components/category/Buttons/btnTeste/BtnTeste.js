@@ -1,6 +1,6 @@
-import styles from './BtnUniverse.module.css'
+import styles from './BtnTeste.module.css'
 
-const BtnUniverse = () => {
+const BtnTeste = () => {
   return (
     <div>
       <button className={styles.shadow_btn}>Universo</button>
@@ -8,4 +8,4 @@ const BtnUniverse = () => {
   )
 }
 
-export default BtnUniverse
+export default BtnTeste

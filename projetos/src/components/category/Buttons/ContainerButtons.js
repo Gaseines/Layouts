@@ -21,8 +21,9 @@ import BtnLeftToRight from "./btnLeftToRight/BtnLeftToRight";
 import CodeBtnLeftToRight from "./btnLeftToRight/CodeBtnLeftToRight";
 import Btn3DYellow from "./btn3DYellow/Btn3DYellow";
 import CodeBtn3DYellow from "./btn3DYellow/CodeBtn3DYellow";
+import CodeBtnUniverse from "./Codes/CodeBtnUniverse";
+import BtnTeste from "./btnTeste/BtnTeste";
 import BtnUniverse from "./btnUniverse/BtnUniverse";
-import CodeBtnUniverse from "./btnUniverse/CodeBtnUniverse";
 
 
 function ContainerButtons() {
@@ -69,20 +70,12 @@ function ContainerButtons() {
               <Btn3DYellow />
             </BoxItem>
 
-            {/* Botao Social 01*/}
+            {/* Botao Universo*/}
             <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
-              <BtnUniverse />
+             <BtnUniverse />
             </BoxItem>
 
-            {/* Botao Social 01*/}
-            <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
-              <BtnUniverse />
-            </BoxItem>
             
-            {/* Botao Social 01*/}
-            <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
-              <BtnUniverse />
-            </BoxItem>
           </Section>
         </>
       )}
