@@ -1,4 +1,4 @@
-import styles from "/BtnSocialUm.module.css"
+import styles from "./BtnSocialUm.module.css"
 
 const BtnSocialUm = () => {
   return (
