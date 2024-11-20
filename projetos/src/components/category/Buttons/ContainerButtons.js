@@ -73,6 +73,16 @@ function ContainerButtons() {
             <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
               <BtnUniverse />
             </BoxItem>
+
+            {/* Botao Social 01*/}
+            <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
+              <BtnUniverse />
+            </BoxItem>
+            
+            {/* Botao Social 01*/}
+            <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
+              <BtnUniverse />
+            </BoxItem>
           </Section>
         </>
       )}
