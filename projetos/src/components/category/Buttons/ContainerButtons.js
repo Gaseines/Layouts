@@ -21,8 +21,9 @@ import BtnLeftToRight from "./btnLeftToRight/BtnLeftToRight";
 import CodeBtnLeftToRight from "./btnLeftToRight/CodeBtnLeftToRight";
 import Btn3DYellow from "./btn3DYellow/Btn3DYellow";
 import CodeBtn3DYellow from "./btn3DYellow/CodeBtn3DYellow";
-import BtnSocialUm from "./btnSocial01/BtnSocialUm";
-import CodeBtnSocialUm from "./btnSocial01/CodeBtnSocialUm";
+import BtnUniverse from "./btnUniverse/BtnUniverse";
+import CodeBtnUniverse from "./btnUniverse/CodeBtnUniverse";
+
 
 function ContainerButtons() {
   const [tela, setTela] = useState("Principal");
@@ -69,8 +70,8 @@ function ContainerButtons() {
             </BoxItem>
 
             {/* Botao Social 01*/}
-            <BoxItem idRef={"btnSocial01"} setActiveCode={setTela}>
-              <BtnSocialUm />
+            <BoxItem idRef={"btnUniverse"} setActiveCode={setTela}>
+              <BtnUniverse />
             </BoxItem>
           </Section>
         </>
@@ -202,19 +203,19 @@ function ContainerButtons() {
         </>
       )}
 
-      {tela === "btnSocial01" && (
+      {tela === "btnUniverse" && (
         <>
           <BtnVoltar setTela={setTela} />
           <Section>
             <Item>
-              <BtnSocialUm />
+            <BtnUniverse />
             </Item>
             <Code
-              linkHtml={"htmlSocial01"}
-              linkCss={"cssSocial01"}
-              linkJs={"jsSocial01"}
+              linkHtml={"htmlUniverse"}
+              linkCss={"cssUniverse"}
+              linkJs={"jsUniverse"}
             >
-              <CodeBtnSocialUm />
+              <CodeBtnUniverse />
             </Code>
           </Section>
         </>
