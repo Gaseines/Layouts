@@ -3,7 +3,7 @@ import styles from "./BtnSocialUm.module.css"
 const BtnSocialUm = () => {
   return (
     <div>
-      <button className={styles.btn}>
+      <div className={styles.btn}>
         <span>Social</span>
         <span>
           <svg
@@ -73,7 +73,7 @@ const BtnSocialUm = () => {
             </a>
           </li>
         </ul>
-      </button>
+      </div>
     </div>
   )
 }
