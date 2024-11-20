@@ -1,4 +1,3 @@
-import Item from '../../Item'
 import styles from './BtnFolha.module.css'
 
 function BtnFolha() {
